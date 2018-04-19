@@ -7,6 +7,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `git clone https://<repository-url>` in prefer folder to download project.
 
 
+## Change branch
+
+On github web go to Source and click in branch, insert name of branch and click in create branch.
+And then run `git checkout <name-of-branch>`
+
+
 ## Create app
 
 Run `ng new appName --routing --skip-git --directory ./`
@@ -20,6 +26,11 @@ Run `ng new appName --routing --skip-git --directory ./`
 Run `ng serve -o` to up server of aplication.
 
 
+## Merge <name-of-branch> in gh-pages
+
+We need merge <name-of-branch> in gh-pages and then compile app and up only files into '/dist' folder
+
+
 ## Compiler app
 
-Run `ng build `
+Run `ng build`
