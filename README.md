@@ -26,11 +26,18 @@ Run `ng new appName --routing --skip-git --directory ./`
 Run `ng serve -o` to up server of aplication.
 
 
+## Instal angular-cli-ghpages
+
+Run `npm install -g angular-cli-ghpages`
+
+
 ## Merge <name-of-branch> in gh-pages
 
 We need merge <name-of-branch> in gh-pages and then compile app and up only files into '/dist' folder
 
 
-## Compiler app
+## Compiler app and Deploy in Github Pages
 
-Run `ng build`
+Run `ng build --base-href https://Raulmn.github.io/<name-repository>`
+Run `ngh`
+Go to url https://Raulmn.github.io/<name-repository> in browser.
