@@ -2,9 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Download app and repository
+## Download app and config repository
 
 Run `git clone https://<repository-url>` in prefer folder to download project.
+Run `git remote set-url origin https://raulmn:pass@github.com/Raulmn/angular-github-pages.git` in prefer folder to download project.
 
 
 ## Change branch
@@ -31,13 +32,8 @@ Run `ng serve -o` to up server of aplication.
 Run `npm install -g angular-cli-ghpages`
 
 
-## Merge <name-of-branch> in gh-pages
-
-We need merge <name-of-branch> in gh-pages and then compile app and up only files into '/dist' folder
-
-
 ## Compiler app and Deploy in Github Pages
 
-Run `ng build --base-href https://Raulmn.github.io/<name-repository>`
-Run `ngh`
+Run `ng build --base-href https://Raulmn.github.io/<name-repository>/`
+Run ` ngh --name="Raulmn" --email=raul11930@gmail.com --no-silent --branch=gh-pages`
 Go to url https://Raulmn.github.io/<name-repository> in browser.
